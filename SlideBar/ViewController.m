@@ -27,8 +27,8 @@
     [_filter setTopTitlesColor:[UIColor blackColor]];//设置滑块上方字体颜色
     [_filter setSelectedIndex:0];//设置当前选中
     [_filter setTitlesFont:[UIFont systemFontOfSize:15]];
-    [_filter setDotRadius:10];
-    [_filter setLineWidth:20];
+    [_filter setDotRadius:20];
+    [_filter setLineWidth:10];
     [self.view addSubview:_filter];
     
     
